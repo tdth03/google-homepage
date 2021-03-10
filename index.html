@@ -8,12 +8,31 @@
         a:hover {
             text-decoration: underline;
         }
+        header {
+            margin-top: 22px;
+        }
     
     body, input, button {
         font-size: 14px;
         font-family: arial, sans-serif;
     }
-    #logo {}
+    #logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+    #buttons {
+        display: inline-block;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
     ul {
     list-style-type: none;
     margin: 0;
@@ -46,9 +65,11 @@
 </div>
 <div id="search-bar">
 <form action="https://www.google.com/search">
-    <input type="text">
-    <button>Google Search</button>
-    <button>I'm Feeling Lucky</button>
+    <input type="text"><br>
+    <div id="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
 </form>
 </div>
 
