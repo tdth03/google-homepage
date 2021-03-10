@@ -1,47 +1,67 @@
 <!DOCTYPE html>
+<html lang="en">
 <style>
-img {
-    max-height: 100%;
-    max-width: 90%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
+    a, a:link, a:visited, a:focus, a:active {
+        color:black;
+        text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    
     body, input, button {
         font-size: 14px;
         font-family: arial, sans-serif;
     }
-ul {
+    #logo {}
+    ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
   li {
-      display: inline;
+      border-right: 20px solid white;
   }
+
   </style>
-<head>
-    <ul>
-<li>About</li>
-<li>Store</li>
-<li style="float:right">Images</li>
-<li style="float:right">Gmail</li>
 
+<header>
+    <div id="header-links"><ul>
+<li style="float:left"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+<li style="float:left"><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+<li style="float:right"><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+<li style="float:right"><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
     </ul>
-
-
+    </div>
+</header>
+<head>
+    <meta charset="utf-8">
+    <title>Google</title>
 </head>
+
 <body>
-    <div class="parent">
-<img class="responsive center" src=images/google-logo.png alt="Google Logo">
+    <div id="logo">
+<img src=images/google-logo.png alt="Google Logo">
 </div>
+<div id="search-bar">
 <form action="https://www.google.com/search">
-    <input type="text" placeholder="Search">
-    <button>Search</button>
+    <input type="text">
+    <button>Google Search</button>
     <button>I'm Feeling Lucky</button>
 </form>
+</div>
 
 </body>
+<footer>
+    <div id="footer-links"><ul>
+<li style="float:left"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+<li style="float:left"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+<li style="float:left"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+<li style="float:right"><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+<li style="float:right"><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+<li style="float:right"><a href="">Settings</a></li>
+    </ul>
+    </div>
+</footer>
+</html>
