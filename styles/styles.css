@@ -1,0 +1,56 @@
+/*CSS Styles*/
+
+a, a:link, a:visited, a:focus, a:active a:not(.footer)
+    {
+        text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        header {
+            margin-top: 22px;
+        }
+    
+    body, input, button {
+        font-size: 14px;
+        font-family: arial, sans-serif;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;   
+    }
+
+    #bar {
+        box-sizing:border-box;
+        width:600px;
+    }
+    #buttons {
+        display: inline-block;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+      border-right: 20px solid white;
+  }
+  .footer {
+      position: fixed;
+      left:30px;
+      bottom:0;
+      color: #70757a;
+      background-color: #f2f2f2;
+      
+  }
+

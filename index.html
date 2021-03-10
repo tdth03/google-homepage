@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <!--Style Sheets-->
+
+        <link href="styles/reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="styles/styles.css" rel="stylesheet" type="text/css" media="all"/>
         <meta charset="utf-8">
         <title>Google</title>
     </head>
 <style>
-    a, a:link, a:visited, a:focus, a:active {
-        color:black;
+    a, a:link, a:visited, a:focus, a:active a:not(.footer)
+    {
         text-decoration: none;
         }
         a:hover {
@@ -50,6 +55,14 @@
   li {
       border-right: 20px solid white;
   }
+  .footer {
+      position: fixed;
+      left:30px;
+      bottom:0;
+      color: #70757a;
+      background-color: #f2f2f2;
+      
+  }
 
 
   </style>
@@ -86,15 +99,17 @@
 
 </body>
 
-<footer>
-    <div id="footer-links"><ul>
-<li style="float:left"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-<li style="float:left"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-<li style="float:left"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
-<li style="float:right"><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
-<li style="float:right"><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
-<li style="float:right"><a href="">Settings</a></li>
+
+<div class="footer">
+<ul>
+<li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+<li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+<li><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+<li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+<li><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+<li><a href="">Settings</a></li>
+
     </ul>
-    </div>
-</footer>
+</div>
+
 </html>
