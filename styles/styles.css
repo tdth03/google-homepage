@@ -37,8 +37,9 @@ a, a:link, a:visited, a:focus, a:active a:not(.footer)
     {
         color: #222;
         float: right;
-        margin-top: 22px;
-        margin-right: 10px;
+        margin-top: 24px;
+        margin-right: 101px;
+        margin-left: -86px;
         font-size: 13px;
     }
 .leftfooter
