@@ -16,24 +16,49 @@ a, a:link, a:visited, a:focus, a:active a:not(.footer)
         }  
 .leftheader
     {
-        color: black;
+        color: #222;
         float:left;
         margin-top: 21px;
         margin-left: 24px;
         margin-right: -8px;
         padding:2px;
+    }
+.navbottom
+    {
+        background-color:#f2f2f2;
+        overflow:hidden;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        height: 47px;
 
     }
 .rightheader
     {
-        color: black;
+        color: #222;
         float: right;
         margin-top: 22px;
         margin-right: 10px;
+        font-size: 13px;
     }
-.footerleft
+.leftfooter
     {
         color:#70757a;
+        float:left;
+        margin-top: 14px;
+        margin-left: 33px;
+        margin-right: -7px;
+        padding:2px;
+    }
+.rightfooter
+    {
+        color:#70757a;
+        float:right;
+        margin-top: 14px;
+        margin-right: 13px;
+        margin-left: 13px;
+        padding:2px;
+        
     }
 a:hover 
     {
@@ -46,32 +71,54 @@ body, input, button
     }
 #logo 
     {
-        display: flex;
+        display: grid;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 100px;
+        cursor:pointer;
     }
 #search-bar 
     {
-        display: flex;
+        display:grid;
         justify-content: center;
-        margin-top: 40px;   
+        margin-top: 39px; 
     }
+.searchicon
+{
+    display: grid;
+    height:20px;
+    width:20px;
+}
 
 #bar 
     {
-        border: 1px solid #70757a;
-        width:500px;
-        height:40px;
-        border-radius: 50px;
+        
+        border: 1px solid #dfe1e5;
+        width:584px;
+        height:44px;
+        border-radius: 24px;
+        background-color:white;
     }
 #bar:focus{
        outline: none;
     }
 #buttons 
     {
-        display: inline-block;
+        display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 1px;
+        
+    }
+.searchbuttons
+    {
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius:5px;
+        min-height: 36px;
+        height:36px;
+        min-width: 54px;
+        cursor:pointer;
+        margin: 11px 4px;
+        padding:0px 16px;
     }
 ul 
     {
@@ -94,6 +141,6 @@ li
     }
 input:hover
 {
-    box-shadow: 0 0 5px 2px rgba(0,0,0,0.15)
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.15)
 }
 
